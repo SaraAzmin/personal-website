@@ -5,6 +5,7 @@ body{
 .tag-font{
     font-family: 'Yeseva One', cursive;
     padding-left: 10px;
+    font-size: 30px;
 }
 #tag-mission{
     color: cornflowerblue;
@@ -23,9 +24,9 @@ body{
     display: flex;
 }
 .top-half{
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 10%;
 }
 .top-half img{
@@ -36,4 +37,41 @@ body{
 .top-tag{
     border-left: 4px solid cornflowerblue;
     border-radius: 2px;
+}
+.mission-section{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.mission-section h1{
+    text-align: center;
+    font-size: 25px;
+}
+span{
+    color: cornflowerblue;
+}
+.mission-div{
+    display: flex;
+    margin-top: 5%;
+
+}
+.separator-div{
+width: 35%;
+background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+.separator-div img{
+    width: 40%;
+}
+#misson-section-two-div{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: lavender;
+
+}
+#misson-section-three-div{
+    background-color: mistyrose;
+
 }
