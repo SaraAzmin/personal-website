@@ -24,23 +24,24 @@ section{
 }
 #intro-p{
     font-size: 18px;
+    padding-bottom: 10px;
 }
 .top-section{
     display: flex;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-right: 5%;
 }
 .top-half{
     width: 50%;
-    height: 500px;
+    height: 400px;
     
 }
 .top-half img{
     width: 500px;
     height: 500px;
     position: relative;
-    top: -150px;
+    top: -100px;
     right: -80px;
 }
 .top-tag{
@@ -48,12 +49,11 @@ section{
     border-radius: 2px;
 }
 .mission-section{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 5% 10%;
 }
 .mission-section h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
 }
 span{
     color: cornflowerblue;
@@ -66,7 +66,7 @@ span{
 width: 30%;
 background-color: antiquewhite;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 20px;
 }
 .separator-div img{
     width: 40%;
@@ -82,10 +82,13 @@ background-color: antiquewhite;
 }
 .develop-div{
     width: 60%;
+    margin-top: 10%;
     margin-right: 5%;
 }
 .develop-div h3{
-    font-size: 20px;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .develop-photo-div{
     width: 35%;
@@ -100,7 +103,6 @@ background-color: antiquewhite;
     border-radius: 15px;
     text-align: center;
     border-style: outset;
-
 }
 .expertise-div img{
     display: block;
@@ -110,6 +112,7 @@ background-color: antiquewhite;
 }
 #expertise-four-div{
     margin-left: 5%;
+    background-color: lightgoldenrodyellow;
 }
 footer{
     background-color: steelblue;
@@ -125,4 +128,7 @@ footer h3{
 footer p{
     margin-bottom: 10px;
     margin-top: 0;
+}
+footer span{
+    color: sandybrown;
 }
