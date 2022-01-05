@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;  
+    margin: 0;
+}
+.tag-font{
+    font-family: 'Yeseva One', cursive;
+    padding-left: 10px;
+}
+#tag-mission{
+    color: cornflowerblue;
+}
+.contact-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(cornflowerblue, steelblue);
+}
+#intro-p{
+    font-size: 18px;
+}
+.top-section{
+    display: flex;
+}
+.top-half{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+.top-half img{
+    width: 100%;
+    position: relative;
+    top: -125px;
+}
+.top-tag{
+    border-left: 4px solid cornflowerblue;
+    border-radius: 2px;
+}
