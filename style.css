@@ -31,8 +31,8 @@ body{
     
 }
 .top-half img{
-    width: 350px;
-    height: 550px;
+    width: 400px;
+    height: 600px;
     position: relative;
     top: -125px;
     right: -50px;
@@ -54,7 +54,6 @@ span{
 }
 .mission-div{
     display: flex;
-    margin-top: 5%;
 }
 .separator-div{
 width: 35%;
