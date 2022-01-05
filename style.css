@@ -2,13 +2,18 @@ body{
     font-family: 'Poppins', sans-serif;  
     margin: 0;
 }
+section{
+    margin-bottom: 20px;
+}
 .tag-font{
     font-family: 'Yeseva One', cursive;
     padding-left: 10px;
-    font-size: 30px;
+    font-size: 60px;
+    margin-bottom: 0;
 }
 #tag-mission{
     color: cornflowerblue;
+    margin-top: 0;
 }
 .contact-button{
     text-decoration: none;
@@ -28,14 +33,15 @@ body{
 }
 .top-half{
     width: 50%;
+    height: 500px;
     
 }
 .top-half img{
-    width: 400px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     position: relative;
-    top: -125px;
-    right: -50px;
+    top: -150px;
+    right: -80px;
 }
 .top-tag{
     border-left: 4px solid cornflowerblue;
@@ -47,22 +53,24 @@ body{
 }
 .mission-section h1{
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
 }
 span{
     color: cornflowerblue;
 }
 .mission-div{
     display: flex;
+    margin-top: 20px;
 }
 .separator-div{
-width: 35%;
+width: 30%;
 background-color: antiquewhite;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 .separator-div img{
     width: 40%;
+    margin-bottom: 20px;
 }
 #misson-section-two-div{
     margin-left: 5%;
@@ -86,4 +94,35 @@ background-color: antiquewhite;
 .develop-photo-div img{
     width: 100%;
     height: 100%;
+}
+.expertise-div{
+    width: 20%;
+    border-radius: 15px;
+    text-align: center;
+    border-style: outset;
+
+}
+.expertise-div img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#expertise-four-div{
+    margin-left: 5%;
+}
+footer{
+    background-color: steelblue;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+footer h3{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+footer p{
+    margin-bottom: 10px;
+    margin-top: 0;
 }
